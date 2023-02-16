@@ -1,0 +1,420 @@
+/* Paleta de colores
+ color azul-negro: #373F51
+ color celeste: #008DD5
+ color piel: #DFBBB1
+ color rosa salmon: #F56476
+ color rosa fuerte: #E43F6F
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    box-sizing: border-box;
+}
+
+/* SECTOR INDEX */
+
+.header-flex {
+    background-color: #F56476;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.header-flex ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-flex li {
+    margin: 0.5rem;
+}
+
+.header-flex a {
+    color: #373F51;
+    text-decoration: none;
+}
+
+/* Contenido Principal */
+.banner-hero {
+    background-image: url('https://www.superprof.es/blog/wp-content/uploads/2017/10/aprender-a-coser-a-maquina.jpg');
+    height: 55vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.banner-hero h1 {
+    text-align: center;
+    color: rgba(253, 252, 252, 0.815);
+    position: relative;
+    top: 55%;
+    font-size: 17px;
+}
+
+/* Producto */
+
+.producto {
+    width: 50vw;
+    text-align: center;
+}
+
+.producto h2 {
+    font-size: medium;
+    text-decoration: underline;
+    position: relative;
+    top: -2px;
+}
+
+.producto img {
+    position: relative;
+    top: -2px;
+    height: 50vh;
+    width: 50vw;
+    padding: .05rem;
+}
+
+.producto-dos img {
+    position: relative;
+    top: -2px;
+    height: 50vh;
+    width: 50vw;
+}
+
+.producto-dos {
+    width: 50vw;
+    text-align: center;
+}
+
+.producto-dos h2 {
+    font-size: 17px;
+    text-decoration: underline;
+    position: relative;
+    top: -2px;
+}
+
+/* Grilla de Productos */
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Footer */
+.footer {
+    background-color: #DFBBB1;
+    height: 60px;
+}
+
+.footer ol {
+    list-style: none;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h3 {
+    text-decoration: none;
+    color: rgba(184, 69, 69, 0.877);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+/* CSS-SECTOR CONTACTO */
+.contacto-css {
+    background-color: #008DD5;
+    font-size: 30px;
+    height: 100%;
+    padding: 5rem;
+}
+
+input {
+    width: 20%;
+    border-radius: 50px;
+    color: #eb3705;
+    font-size: 20px;
+}
+
+select {
+    width: 15%;
+    font-size: 15px;
+    color: #ce0b0b;
+}
+
+.footer-contacto {
+    background-color: #DFBBB1;
+    height: 160px;
+}
+
+.footer-contacto ol {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.footer-contacto h3 {
+    text-decoration: none;
+    color: rgba(184, 69, 69, 0.877);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 30px;
+}
+
+.footer-contacto a {
+    color: black;
+    text-decoration: underline;
+}
+
+/* CSS SECTOR SERVICIOS */
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.servicio-uno img {
+    width: 50vw;
+    padding: 0.5rem;
+    position: relative;
+    top: 2px;
+}
+
+.servicio-uno h2 {
+    font-size: 27px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.servicio-uno {
+    font-size: 20px;
+    text-align: center;
+    background-color: #e43f6e94;
+}
+
+.servicio-dos img {
+    width: 48vw;
+    height: 83vh;
+    padding: 0.4rem;
+    position: relative;
+    top: 4px;
+}
+
+.servicio-dos h2 {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.servicio-dos {
+    font-size: 20px;
+    text-align: center;
+    background-color: #e43f6e94;
+}
+
+/* CSS AREA INFORMACION RELEVANTE */
+
+.informacion-relevante h2 {
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.informacion-relevante {
+    font-size: 25px;
+    text-align: center;
+    background-color: #008DD5;
+}
+
+.informacion-relevante iframe {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/* CSS GALERIA PARA RESPONSIVE 500 */
+
+.galeria-uno img {
+    height: 54.4vh;
+}
+
+.galeria-uno h2 {
+    text-decoration: underline;
+    background-color: aquamarine;
+}
+
+.galeria-dos img {
+    width: 100vw;
+}
+
+.galeria-dos h2 {
+    text-decoration: underline;
+    background-color: aquamarine;
+}
+
+.galeria-tres h2 {
+    text-decoration: underline;
+    background-color: aquamarine;
+}
+
+/* MOBILE FIRST-RESPONSIVE 500 - LAPTOP 1440 - PC ESCRITORIO */
+
+@media (min-width: 600px) {
+
+    /* Barra de Navegación */
+    .header-flex {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+        font-size: 200%;
+    }
+
+    /* Contenido Principal  */
+
+    .banner-hero {
+        background-position: center;
+    }
+
+    .banner-hero h1 {
+        text-align: center;
+        color: rgba(253, 252, 252, 0.815);
+        position: relative;
+        top: 55%;
+        font-size: 30px;
+    }
+
+    /* Productos */
+
+    .producto img {
+        height: 130vh;
+        width: 101.5%;
+        padding: .1rem;
+        position: relative;
+        top: 1px;
+    }
+
+    .producto-dos img {
+        height: 130vh;
+        width: 100%;
+        padding: .1rem;
+        position: relative;
+        top: 1px;
+
+    }
+
+    .producto h2 {
+        font-size: 30px;
+        text-decoration: underline;
+        position: relative;
+        top: 1px;
+    }
+
+    .producto-dos {
+        width: 50vw;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .producto-dos h2 {
+        font-size: 30px;
+        text-decoration: underline;
+        position: relative;
+        top: 1px;
+    }
+
+    .producto {
+        width: 50vw;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    /* Footer */
+
+    .footer {
+        height: 150px;
+    }
+
+    .footer ol {
+        list-style: none;
+        font-size: 25px;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+    }
+
+    .footer h3 {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        font-size: 30px;
+    }
+
+    .galeria-uno img {
+        height: 111.4vh;
+    }
+
+    .galeria-uno {
+        font-size: 25px;
+    }
+
+    .galeria-dos {
+        font-size: 25px;
+    }
+
+    .galeria-dos img {
+        width: 100vw;
+    }
+
+    .galeria-tres {
+        font-size: 22px;
+    }
+
+    .galeria-tres iframe {
+        width: 1022px;
+        height: 800px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .galeria-uno img {
+        width: 100vw;
+    }
+
+    .galeria-uno {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .galeria-uno h2 {
+        font-size: 30px;
+    }
+
+    .galeria-dos img {
+        height: 1000px;
+        width: 800px;
+        margin-left: 10rem;
+    }
+
+    .galeria-dos {
+        text-align: center;
+    }
+
+    .galeria-tres {
+        text-align: center;
+    }
+}
